@@ -1,0 +1,16 @@
+#logo {
+position: absolute;
+height: 150px;
+widows: 150px;
+left: 28%;
+top: 3%;
+}
+
+#reset {
+    margin-left: 200px
+}
+
+#chosen {
+    position: absolute;
+    left: 40%;
+}
