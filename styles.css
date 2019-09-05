@@ -1,16 +1,13 @@
 #logo {
-position: absolute;
-height: 150px;
-widows: 150px;
-left: 28%;
-top: 3%;
+    display: inline;
+    height: 70px;
+    width: 70px;
 }
 
-#reset {
-    margin-left: 200px
+#title {
+    display: inline-table;
 }
 
 #chosen {
-    position: absolute;
-    left: 40%;
+    margin-top: 40px;
 }
