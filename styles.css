@@ -1,13 +1,19 @@
 #logo {
-    display: inline;
     height: 70px;
     width: 70px;
 }
 
-#title {
-    display: inline-table;
-}
-
 #chosen {
     margin-top: 40px;
+}
+
+.nav-wrapper {
+    height: 300px;
+}
+
+@media only screen and (min-width: 601px) {
+    nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
+        height: 100px;
+        line-height: 100px;
+    }
 }

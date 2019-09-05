@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
         let rnd = Math.floor(Math.random() * 15)
         list.children[rnd].style.background = 'lightgrey'
         list.children[rnd].style.fontSize = '180%'
-        chosen.innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;选中的玩家：" + list.children[rnd].innerHTML
+        chosen.innerHTML = "&nbsp;&nbsp;&nbsp;选中的玩家：" + list.children[rnd].innerHTML
     })
 
     reset.addEventListener('click', () => {
